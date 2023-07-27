@@ -201,3 +201,34 @@ a.work-detail-link {
 }
 
 /* end work */
+
+/* achievement */
+.achievement-image{
+  margin: 0;
+  padding: 0;
+}
+
+.achievement-info{
+  background: #F8F8F8;
+  margin: 0;
+  padding: 40px;
+}
+
+h1.number{
+  color: #43baff;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+h2.heading{
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+p.achievement-description{
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6D6D6D;
+}
+/* end achievement */
