@@ -5,3 +5,5 @@ $(".partner-slide").slick({
   autoplaySpeed: 5000,
   arrows: false,
 });
+
+

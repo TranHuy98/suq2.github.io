@@ -119,7 +119,11 @@ section#banner {
   opacity: 1;
   user-select: none;
 }
-
+.service-card-box:hover{
+  transform: translate(10px,-10px);
+  transition: 0.4s;
+  box-shadow: 0 0 2px #CCC;
+}
 .service-card-box:hover i {
   color: #43baff;
 }
