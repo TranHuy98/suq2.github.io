@@ -68,12 +68,14 @@ h2.heading {
 }
 .info-card:nth-child(2) {
   background: url(../assets/images/about/image-box2.jpg) no-repeat;
+  transform: translate(0, 30px);
 }
 .info-card:nth-child(3) {
   background: url(../assets/images/about/image-box3.jpg) no-repeat;
 }
 .info-card:nth-child(4) {
   background: url(../assets/images/about/image-box4.jpg) no-repeat;
+  transform: translate(0, 30px);
 }
 
 .info-card h4 {
