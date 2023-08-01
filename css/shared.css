@@ -29,11 +29,11 @@ p {
 img {
   max-width: 100%;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
@@ -104,52 +104,52 @@ li.header-content-menu-item:after {
   background: #43baff;
   transition: 0.4s;
 }
-li.header-content-menu-item:hover{
+li.header-content-menu-item:hover {
   color: #43baff;
 }
 li.header-content-menu-item:hover::after {
   width: 100%;
 }
 
-li.header-content-menu-item:hover ul.header-dropdown{
+li.header-content-menu-item:hover ul.header-dropdown {
   display: flex;
 }
 
-ul.header-dropdown{
+ul.header-dropdown {
   position: absolute;
   top: 100%;
   left: -25%;
   color: #242021;
   width: 200%;
-  background: #FFF;
+  background: #fff;
   font-weight: bold;
-  padding: 30px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
   display: none;
+  padding: 30px;
 }
 
-li.header-dropdown-item{
+li.header-dropdown-item {
   line-height: 1.2;
   list-style: none;
   font-weight: bold;
   width: 100%;
 }
-li.header-dropdown-item span{
+li.header-dropdown-item span {
   margin: 0;
 }
-li.header-dropdown-item:hover{
+li.header-dropdown-item:hover {
   color: #43baff;
 }
 
-.header-search{
+.header-search {
   width: 300px;
   position: relative;
 }
 
-input.search-input{
+input.search-input {
   padding: 10px 64px 10px 20px;
   width: 100%;
   outline: none;
@@ -158,10 +158,10 @@ input.search-input{
   border: none;
 }
 
-input.search-input::placeholder{
-  color: #FFF;
+input.search-input::placeholder {
+  color: #fff;
 }
-.header-search .search-button{
+.header-search .search-button {
   position: absolute;
   top: 0;
   right: 0;
@@ -174,14 +174,38 @@ input.search-input::placeholder{
   background: #43baff;
 }
 
-
-
 /* end header */
 
+/* banner */
+section#banner {
+  background: url(../assets/images/home/bg-banner-home5.png) #0e0a31 no-repeat;
+  height: 600px;
+  color: #fff;
+  background-position: bottom left;
+  background-size: 100% auto;
+  padding: 40px 3%;
+}
+.banner-text {
+  width: 50%;
+  line-height: 1.4;
+}
+.banner-text h3.title {
+  font-size: 24px;
+}
+.banner-text h1.main-heading {
+  font-size: 70px;
+  font-weight: 900;
+  margin: 25px 0;
+  line-height: 1.1;
+}
+.banner-text p.banner-quote {
+  font-size: 18px;
+}
+.banner-image {
+  width: 45%;
+}
 
-
-
-
+/* end banner */
 
 /* footer */
 footer.footer {
@@ -245,7 +269,7 @@ footer.footer {
   color: #fff;
   background: #43baff;
 }
-.footer-end{
+.footer-end {
   margin: 60px 0 0;
 }
 /* end footer */
@@ -264,6 +288,6 @@ h2.heading {
   margin: 5px 0 45px;
   font-family: "Montserrat", sans-serif;
 }
-h3{
+h3 {
   font-size: 20px;
 }
