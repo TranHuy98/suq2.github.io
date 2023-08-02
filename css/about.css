@@ -1,56 +1,18 @@
-/* banner */
-section#banner {
-  background: url(../assets/images/home/bg-banner-home5.png) #0e0a31 no-repeat;
-  height: 300px;
-  color: #fff;
-  background-position: bottom left;
-  background-size: 100% auto;
-  padding: 40px 3%;
-}
-.banner-text {
-  width: 80%;
-  line-height: 1.4;
-}
-.banner-text h3.title {
-  font-size: 18px;
-}
-.banner-text h3.title i {
-  color: #43baff;
-}
-.banner-text h3.title a:hover {
-  color: #43baff;
-}
-.banner-text h1.main-heading {
-  font-size: 60px;
-  font-weight: 900;
-  margin: 25px 0;
-  line-height: 1.1;
-}
-.banner-text p.banner-quote {
-  font-size: 18px;
-}
-.banner-image {
-  width: 0;
-}
 
-/* end banner */
 
 /* about info */
 #about-info {
-  padding: 60px 0;
+  padding: 60px 0 90px;
 }
 .about-info-left {
-  width: 48%;
+  width: 55%;
 }
 .about-info-left p {
   margin: 15px 0 0;
 }
-h2.heading {
-  margin: 5px 0 30px;
-}
 
 .about-info-right {
-  width: 48%;
+  width: 40%;
   gap: 30px;
 }
 

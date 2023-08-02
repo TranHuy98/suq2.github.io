@@ -25,7 +25,7 @@
     />
 
     <link rel="stylesheet" href="../css/shared.css" />
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/about.css" />
 
     <title>About</title>
   </head>
@@ -68,8 +68,12 @@
           Company
 
           <ul class="header-dropdown">
-            <li class="header-dropdown-item"><span>//</span> About Us</li>
-            <li class="header-dropdown-item"><span>//</span> Career</li>
+            <a href="./about.html"
+              ><li class="header-dropdown-item"><span>//</span> About Us</li></a
+            >
+            <a href="./career.html"
+              ><li class="header-dropdown-item"><span>//</span> Career</li></a
+            >
             <li class="header-dropdown-item"><span>//</span> Our Team</li>
             <li class="header-dropdown-item"><span>//</span> FAQ</li>
           </ul>
@@ -105,18 +109,15 @@
 
     <!-- end header -->
 
-    <!-- banner -->
+    <!-- side banner -->
     <section
-      id="banner"
+      id="side-banner"
       class="container-fluid d-flex flex-column justify-content-center align-items-center"
     >
       <div
         class="container d-flex justify-content-between align-items-center flex-row"
       >
-        <div class="banner-text">
-          <h3 class="title">
-            <strong><a href="../index.html">HOME</a> <i class="fas fa-caret-right"></i> <a href="about.html">ABOUT US</a></strong>
-          </h3>
+        <div class="side-banner-text">
           <h1 class="main-heading">About Us</h1>
           <p class="banner-quote">
             We are 100+ professional software engineers with more than 10 years
@@ -124,59 +125,83 @@
           </p>
         </div>
 
-        <div class="banner-image">
-          <img src="../assets/images/home/image-banner-home5.png" alt="" />
+        <div class="side-banner-link">
+          <h3 class="title">
+            <strong
+              ><a href="../index.html">HOME</a>
+              <i class="fas fa-caret-right"></i>
+              <a href="about.html" class="current-page">ABOUT US</a></strong
+            >
+          </h3>
         </div>
       </div>
     </section>
-    <!-- end banner -->
-
+    <!-- end side banner -->
 
     <!-- about info -->
 
-    <section id="about-info" class="container-fluid d-flex flex-column justify-content-center align-items-center">
-        <div class="container d-flex justify-content-between align-items-center flex-row">
-            <div class="about-info-left">
-                <p class="title">// WHAT WE OFFER</p>
-                
-                <h2 class="heading">Your Your Partner for <br>  Software Innovation</h2>
+    <section
+      id="about-info"
+      class="container-fluid d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex justify-content-between align-items-center flex-row"
+      >
+        <div class="about-info-left">
+          <p class="title">// WHAT WE OFFER</p>
 
-                <p>Engitech is the partner of choice for many of the world’s leading enterprises, SMEs and technology challengers. We help businesses elevate their value through custom software development, product design, QA and consultancy services.</p>
+          <h2 class="heading">
+            Your Your Partner for <br />
+            Software Innovation
+          </h2>
 
-                <p><em>We can help to maintain and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.</em></p>
-            </div>
-            <div class="about-info-right d-flex justify-content-sm-start align-items-start flex-wrap">
-                <div class="info-card d-flex justify-content-center align-items-center">
-                    <h4>Our Mission</h4>
-                    <div class="info-card-text">
-                        
-                    </div>
-                </div>
-                <div class="info-card d-flex justify-content-center align-items-center">
-                    <h4>Our Vision</h4>
-                    <div class="info-card-text">
-                        
-                    </div>
-                </div>
-                <div class="info-card d-flex justify-content-center align-items-center">
-                    <h4>Our Philosophy</h4>
-                    <div class="info-card-text">
-                        
-                    </div>
-                </div>
-                <div class="info-card d-flex justify-content-center align-items-center">
-                    <h4>Our Strategy</h4>
-                    <div class="info-card-text">
-                        
-                    </div>
-                </div>
-            </div>
+          <p>
+            Engitech is the partner of choice for many of the world’s leading
+            enterprises, SMEs and technology challengers. We help businesses
+            elevate their value through custom software development, product
+            design, QA and consultancy services.
+          </p>
+
+          <p>
+            <em
+              >We can help to maintain and modernize your IT infrastructure and
+              solve various infrastructure-specific issues a business may
+              face.</em
+            >
+          </p>
         </div>
+        <div
+          class="about-info-right d-flex justify-content-end align-items-start flex-wrap"
+        >
+          <div
+            class="info-card d-flex justify-content-center align-items-center"
+          >
+            <h4>Our Mission</h4>
+            <div class="info-card-text"></div>
+          </div>
+          <div
+            class="info-card d-flex justify-content-center align-items-center"
+          >
+            <h4>Our Vision</h4>
+            <div class="info-card-text"></div>
+          </div>
+          <div
+            class="info-card d-flex justify-content-center align-items-center"
+          >
+            <h4>Our Philosophy</h4>
+            <div class="info-card-text"></div>
+          </div>
+          <div
+            class="info-card d-flex justify-content-center align-items-center"
+          >
+            <h4>Our Strategy</h4>
+            <div class="info-card-text"></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- end about info -->
-
-    
 
     <!-- footer -->
     <footer
