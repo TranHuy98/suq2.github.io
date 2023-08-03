@@ -1,0 +1,50 @@
+/* contact field */
+#contact-field {
+    padding: 60px 0;
+  }
+.company-info{
+    width: 55%;
+}
+.customer-info{
+    width: 40%;
+}
+.customer-info-box{
+    color: #FFF;
+    border: 1px solid #CCC;
+    width: 100%;
+    padding: 30px;
+    background-image: linear-gradient(to right, #01DCFE, #6E45B3);
+    font-size: 14px;
+}
+.customer-info-box h2.heading{
+    margin: 0 0 15px;
+}
+.customer-info-box p.note{
+    margin: 0 0 40px;
+}
+.customer-info-box input{
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.4);
+    color: #FFF;
+    margin: 15px 0 0;
+    width: 100%;
+}
+.customer-info-box input::placeholder{
+    color: #FFF;
+}
+.customer-info-box textarea{
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.4);
+    color: #FFF;
+    margin: 15px 0 0;
+    width: 100%;
+    resize: none;
+}
+.customer-info-box textarea::placeholder{
+    color: #FFF;
+}
+/* end contact field */

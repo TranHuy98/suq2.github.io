@@ -106,3 +106,30 @@
     opacity: 0.6;
   }
   /* end home service */
+
+  /* service-contact */
+  #service-contact{
+    padding: 80px 0;
+    color: #FFF;
+    background: url(../assets/images/service/bg-cta-home2.jpg) no-repeat;
+    background-position:  center center;
+    background-size: cover;
+  }
+  #service-contact h3{
+    font-weight: 900;
+    font-size: 24px;
+  }
+  #service-contact h1{
+    font-weight: 900;
+    margin: 40px 0;
+    font-size: 60px;
+  }
+  button.apply-btn {
+    cursor: pointer;
+    background: #43baff;
+    padding: 14px 30px;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 0;
+  }
+  /* end service-contact */

@@ -128,7 +128,7 @@ ul.header-dropdown {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
   display: none;
   padding: 30px;
 }
