@@ -200,7 +200,7 @@ a.work-detail-link {
   font-size: 16px;
   color: #43baff;
   margin: 60px 0 0;
-  display: block;
+  display: inline-block;
 }
 
 /* end work */
