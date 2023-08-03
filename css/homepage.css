@@ -210,6 +210,11 @@ a.work-detail-link {
   margin: 0;
   padding: 0;
 }
+.achievement-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .achievement-info{
   background: #F8F8F8;
