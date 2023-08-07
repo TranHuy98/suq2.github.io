@@ -50,6 +50,9 @@
   margin: 15px 0 0;
   width: 100%;
 }
+.customer-info-box input:focus{
+  outline: 1px solid #01dcfe;
+}
 .customer-info-box input::placeholder {
   color: #fff;
 }
@@ -62,6 +65,9 @@
   margin: 15px 0;
   width: 100%;
   resize: none;
+}
+.customer-info-box textarea:focus{
+  outline: 1px solid #01dcfe;
 }
 .customer-info-box textarea::placeholder {
   color: #fff;
