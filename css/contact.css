@@ -1,9 +1,28 @@
 /* contact field */
 #contact-field {
-  padding: 60px 0;
+  padding: 60px 3%;
 }
 .company-info {
-  width: 50%;
+  width: 45%;
+}
+.company-info .detail{
+  margin: 10px 0 0;
+  padding: 25px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  transition: 0.5s;
+}
+.company-info .detail:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px #ccc;
+}
+.company-info .detail i{
+  font-size: 30px;
+  color: #01dcfe;
 }
 .customer-info {
   width: 45%;
@@ -53,5 +72,6 @@
   border-radius: 0;
   color: #000;
   font-weight: bold;
+  transition: 0.5s;
 }
 /* end contact field */
