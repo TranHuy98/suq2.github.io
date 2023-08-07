@@ -129,7 +129,7 @@ ul.header-dropdown {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 30px;
+  gap: 25px;
   display: none;
   padding: 30px;
 }
@@ -139,6 +139,7 @@ li.header-dropdown-item {
   list-style: none;
   font-weight: bold;
   width: 100%;
+  text-transform: uppercase;
 }
 li.header-dropdown-item span {
   margin: 0;
