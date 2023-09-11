@@ -48,16 +48,15 @@ a:hover {
   max-width: 1400px;
 }
 
-
 /* loading */
-.fade{
+.fade {
   animation: fadeout 0.5s linear forwards;
 }
 @keyframes fadeout {
-  0%{
+  0% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     display: none;
   }
@@ -95,7 +94,7 @@ a:hover {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #211F3B;
+  background: #211f3b;
   margin: -4px 0 0 -4px;
 }
 .lds-roller div:nth-child(1) {
@@ -164,7 +163,6 @@ a:hover {
 }
 
 /* end loading */
-
 
 /* header */
 
@@ -237,9 +235,9 @@ li.header-content-menu-item:hover ul.header-dropdown {
 ul.header-dropdown {
   position: absolute;
   top: 100%;
-  left: -50%;
+  left: 0%;
   color: #242021;
-  width: 250%;
+  width: 100%;
   background: #fff;
   font-weight: bold;
   flex-direction: column;
@@ -247,7 +245,7 @@ ul.header-dropdown {
   align-items: flex-start;
   gap: 25px;
   display: none;
-  padding: 30px;
+  padding: 20px;
 }
 
 li.header-dropdown-item {
@@ -256,6 +254,7 @@ li.header-dropdown-item {
   font-weight: bold;
   width: 100%;
   text-transform: uppercase;
+  text-align: center;
 }
 li.header-dropdown-item span {
   margin: 0;
@@ -263,7 +262,7 @@ li.header-dropdown-item span {
 li.header-dropdown-item:hover {
   color: #43baff;
 }
-.header-function{
+.header-function {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -301,12 +300,12 @@ input.search-input::placeholder {
   background: #43baff;
 }
 
-.languages{
+.languages {
   margin: 0;
 }
-.languages img{
+.languages img {
   width: 30px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   cursor: pointer;
 }
 /* end header */
@@ -370,17 +369,17 @@ section#side-banner {
 }
 .side-banner-link h3.title {
   font-size: 18px;
-  color: #AEAACB;
+  color: #aeaacb;
 }
-.side-banner-link h3.title .current-page{
-  color: #FFF;
+.side-banner-link h3.title .current-page {
+  color: #fff;
 }
 .side-banner-link h3.title i {
   color: #43baff;
   margin: 0 3px;
 }
 .side-banner-link h3.title a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 /* end side banner */

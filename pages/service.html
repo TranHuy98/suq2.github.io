@@ -58,7 +58,7 @@
         <p><i class="fas fa-clock"></i> Mon - Sat: 8.00 am - 7.00 pm</p>
       </div>
       <div class="header-info-right d-flex justify-content-end flex-row">
-        <p>
+        <p id="testlang">
           We are creative, ambitious and ready for challenges!
           <a href="" target="_blank">Hire Us</a>
         </p>
@@ -78,60 +78,26 @@
       <ul
         class="header-content-menu d-flex flex-row justify-content-center align-items-center"
       >
-        <li class="header-content-menu-item">
-          Company
-
-          <ul class="header-dropdown">
-            <a href="./about.html"
-              ><li class="header-dropdown-item"><span>//</span> About Us</li></a
-            >
-            <a href="./career.html"
-              ><li class="header-dropdown-item"><span>//</span> Career</li></a
-            >
-            <li class="header-dropdown-item"><span>//</span> Our Team</li>
-            <li class="header-dropdown-item"><span>//</span> FAQ</li>
-          </ul>
-        </li>
-        <li class="header-content-menu-item">
-          Service
-
-          <ul class="header-dropdown">
-            <a href="./service.html"
-              ><li class="header-dropdown-item">
-                <span>//</span> IT Service
-              </li></a
-            >
-            <li class="header-dropdown-item">
-              <span>//</span> Web Development
-            </li>
-            <li class="header-dropdown-item">
-              <span>//</span> Mobile Development
-            </li>
-          </ul>
-        </li>
-        <a href="./contact.html"
+        <a href="../pages/service.html"
+          ><li class="header-content-menu-item">Service</li></a
+        >
+        <a href="../pages/career.html"
+          ><li class="header-content-menu-item">Career</li></a
+        >
+        <a href="../pages/about.html"
+          ><li class="header-content-menu-item">About Us</li></a
+        >
+        <a href="../pages/contact.html"
           ><li class="header-content-menu-item">Contact</li></a
         >
+        <li class="header-content-menu-item">
+          <span id="lang_change">EN</span>
+          <ul class="header-dropdown">
+            <li class="header-dropdown-item" id="lang_de">de</li>
+            <li class="header-dropdown-item" id="lang_en">en</li>
+          </ul>
+        </li>
       </ul>
-
-      <div class="header-function">
-        <div class="header-search">
-          <input
-            class="search-input"
-            type="text"
-            name="search"
-            placeholder="Search"
-          />
-          <button class="search-button">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
-
-        <div class="languages">
-          <img src="../assets/images/de.svg" alt="" id="lang_de"/>
-          <img src="../assets/images/us.svg" alt="" id="lang_en"/>
-        </div>
-      </div>
     </header>
 
     <!-- end header -->
