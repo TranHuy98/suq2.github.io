@@ -212,6 +212,9 @@ li.header-content-menu-item {
   position: relative;
   cursor: pointer;
 }
+li.head-menu-icon{
+  padding: 30px 5px;
+}
 li.header-content-menu-item:after {
   content: "";
   position: absolute;
