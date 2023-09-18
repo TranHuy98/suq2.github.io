@@ -171,6 +171,7 @@ a:hover {
   background: #272346;
   color: #b5b5b5;
   font-size: 14px;
+  display: none !important;
 }
 .header-info-left {
   gap: 20px;
