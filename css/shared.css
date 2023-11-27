@@ -393,10 +393,12 @@ footer.footer {
   background: #201d3c;
   color: #fff;
   padding: 80px 3% 50px;
+  padding: 0 3% 40px;
 }
 
 .footer-menu {
   margin: 0;
+  display: none !important;
 }
 .footer-menu-column {
   margin: 0;
@@ -454,6 +456,9 @@ footer.footer {
   margin: 40px 0 0;
   padding: 40px 0 0;
   border-top: 1px solid #FFF;
+
+  margin: 0 0 0;
+  border: none;
 }
 /* end footer */
 

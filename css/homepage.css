@@ -28,7 +28,7 @@ section#banner {
   width: 45%;
 }
 
-.banner-slide{
+.banner-slide {
   position: relative;
 }
 
@@ -48,10 +48,10 @@ section#banner {
   z-index: 1;
   border: none;
   border-radius: 50%;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 .slick-prev:focus,
-.slick-next:focus{
+.slick-next:focus {
   border: none;
 }
 
@@ -62,18 +62,18 @@ section#banner {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.slick-prev:before{
+.slick-prev:before {
   font-family: "Font Awesome 5 Free";
   content: "\f104";
-  color: #07D6FB;
+  color: #07d6fb;
   font-size: 30px;
   font-weight: 900;
 }
 
-.slick-next:before{
+.slick-next:before {
   font-family: "Font Awesome 5 Free";
   content: "\f105";
-  color: #07D6FB;
+  color: #07d6fb;
   font-size: 30px;
   font-weight: 900;
 }
@@ -87,9 +87,6 @@ section#banner {
 }
 
 /* end banner */
-
-
-
 
 /* home service */
 #home-service {
@@ -181,9 +178,9 @@ section#banner {
   opacity: 1;
   user-select: none;
 }
-.service-card-box:hover{
+.service-card-box:hover {
   transition: 0.4s;
-  box-shadow: 0 0 2px #CCC;
+  box-shadow: 0 0 2px #ccc;
 }
 .service-card-box:hover i {
   color: #43baff;
@@ -248,11 +245,46 @@ section#banner {
   color: #43baff;
   cursor: pointer;
   transition: 0.5s;
+  position: relative;
+  margin: 20px 0 30px;
 }
 .code-lang-item:hover {
   color: #fff;
   background: #43baff;
 }
+
+/* tooltip */
+.code-lang-item .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: #2BBDFD;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -40px;
+  font-size: 14px;
+}
+
+.code-lang-item:hover .tooltiptext {
+  visibility: visible;
+}
+.code-lang-item .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #2BBDFD transparent;
+}
+/* tooltip */
+
 p.work-detail {
   margin: 20px 0;
   font-size: 16px;
@@ -268,37 +300,37 @@ a.work-detail-link {
 /* end work */
 
 /* achievement */
-.achievement-image{
+.achievement-image {
   margin: 0;
   padding: 0;
 }
-.achievement-image img{
+.achievement-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.achievement-info{
-  background: #F8F8F8;
+.achievement-info {
+  background: #f8f8f8;
   margin: 0;
   padding: 40px;
 }
 
-h1.number{
+h1.number {
   color: #43baff;
   font-size: 48px;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
 }
-h2.heading{
+h2.heading {
   font-size: 30px;
   margin: 20px 0;
 }
 
-p.achievement-description{
+p.achievement-description {
   margin: 20px 0;
   font-size: 18px;
   line-height: 1.5;
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
 /* end achievement */
