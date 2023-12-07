@@ -334,3 +334,10 @@ p.achievement-description {
   color: #6d6d6d;
 }
 /* end achievement */
+
+
+[class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
