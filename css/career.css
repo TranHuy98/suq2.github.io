@@ -60,3 +60,15 @@ button.apply-btn {
 }
 
 /* end jobs */
+
+/* mobi */
+@media all and (max-width: 991px) {
+  #jobs{
+    text-align: center;
+    padding: 45px 3%;
+  }
+  .job-list{
+    text-align: left;
+  }
+}
+/* end mobi */
