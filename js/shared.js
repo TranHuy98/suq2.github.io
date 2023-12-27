@@ -14,3 +14,16 @@ document.getElementById("lang_de").onclick = () => {
 document.getElementById("lang_en").onclick = () => {
   document.getElementById("lang_change").innerHTML = 'EN';
 };
+
+
+
+//mobi menu
+
+document.getElementById("mobi-menu-button").onclick = () => {
+
+  
+  document.getElementById("mobi-dropdown").classList.toggle("mobi-menu-toggle");
+
+  document.getElementById("mobi-menu-button").classList.toggle("animate");
+
+}

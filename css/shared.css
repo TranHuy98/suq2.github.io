@@ -12,6 +12,7 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 a {
@@ -212,7 +213,7 @@ li.header-content-menu-item {
   position: relative;
   cursor: pointer;
 }
-li.head-menu-icon{
+li.head-menu-icon {
   padding: 30px 5px;
 }
 li.header-content-menu-item:after {
@@ -455,7 +456,7 @@ footer.footer {
 .footer-end {
   margin: 40px 0 0;
   padding: 40px 0 0;
-  border-top: 1px solid #FFF;
+  border-top: 1px solid #fff;
 
   margin: 0 0 0;
   border: none;
@@ -479,3 +480,80 @@ h2.heading {
 h3 {
   font-size: 20px;
 }
+
+/* 26/12/2023 */
+
+/* Mobi menu button */
+.mobi-menu-button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #43baff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.animate .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.animate .bar2 {
+  opacity: 0;
+}
+
+.animate .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* Mobi menu */
+
+.mobi-menu {
+  display: none;
+}
+
+@media all and (max-width: 991px) {
+  .mobi-menu {
+    display: block;
+  }
+  ul.header-content-menu {
+    display: none !important;
+  }
+  .header-content {
+    padding: 20px 3%;
+    height: 80px;
+  }
+  ul.mobi-dropdown {
+    border-top: 2px solid #43baff;
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    right: 0;
+    background: #0d0b30;
+    color: #fff;
+    transition: 0.5s;
+    z-index: 2;
+    display: none;
+  }
+  li.mobi-dropdown-item {
+    margin: 0;
+    padding: 10px 3%;
+    text-align: right;
+    border-bottom: 1px solid #43baff;
+    font-weight: bold;
+  }
+  .mobi-menu-toggle {
+    display: block !important;
+  }
+
+ 
+
+}
+
+/* End Mobi menu */

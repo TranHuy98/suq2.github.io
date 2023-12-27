@@ -112,7 +112,7 @@ section#banner {
 }
 .service-card-box {
   border: 1px solid #e7e7e7;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   position: relative;
   background: transparent;
@@ -209,6 +209,9 @@ section#banner {
   height: 40px;
   filter: grayscale();
   display: inline-block !important;
+
+  max-width: 90%;
+  object-fit: contain;
 }
 .partner-slide img:hover {
   filter: none;
@@ -257,7 +260,7 @@ section#banner {
 .code-lang-item .tooltiptext {
   visibility: hidden;
   width: 80px;
-  background-color: #2BBDFD;
+  background-color: #2bbdfd;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -281,7 +284,7 @@ section#banner {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #2BBDFD transparent;
+  border-color: transparent transparent #2bbdfd transparent;
 }
 /* tooltip */
 
@@ -335,9 +338,83 @@ p.achievement-description {
 }
 /* end achievement */
 
-
 [class*="col-"] {
   float: none;
   display: table-cell;
   vertical-align: top;
 }
+
+/* Mobi */
+
+@media all and (max-width: 1024px) {
+  .service-card-box {
+    padding: 25px;
+  }
+  .slick-prev {
+    left: 0px;
+  }
+
+  .slick-next {
+    right: 0px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  section#banner {
+    padding: 0;
+  }
+  .banner-text {
+    width: 100%;
+    padding: 20px 3%;
+    text-align: center;
+  }
+
+  .banner-text h3.title {
+    margin: 0;
+  }
+  .banner-text h1.main-heading {
+    font-size: 50px;
+  }
+
+  .banner-image {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-image img {
+    width: 60%;
+    display: inline-block;
+  }
+  .achievement-image-mobi {
+    order: 1;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .our-work-bg {
+    padding: 30px 3%;
+  }
+  #partner{
+    padding: 25px 3%;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .achievement-image-mobi {
+    order: 0;
+  }
+  footer.footer{
+    padding: 0 3% 20px;
+  }
+  .footer-end{
+    padding: 20px 0 0;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 425px){
+  .banner-text h1.main-heading {
+    font-size: 35px;
+  }
+}
+
+/* end Mobi */
