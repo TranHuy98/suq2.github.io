@@ -80,3 +80,20 @@
   transition: 0.5s;
 }
 /* end contact field */
+
+/* mobi */
+@media all and (max-width: 768px){
+  .customer-info{
+    width: 100%;
+  }
+  .company-info{
+    width: 100%;
+  }
+  .company-info .detail{
+    padding: 15px 0;
+  }
+  #contact-field{
+    padding: 40px 5%;
+  }
+}
+/* end mobi */
