@@ -133,3 +133,47 @@
     border-radius: 0;
   }
   /* end service-contact */
+
+
+  /* mobi */
+  @media all and (max-width: 1024px) {
+    .service-card-box {
+      padding: 25px;
+    }
+    .slick-prev {
+      left: 0px;
+    }
+  
+    .slick-next {
+      right: 0px;
+    }
+  }
+
+  @media all and (max-width: 768px){
+    #service-contact{
+      padding: 40px 3%;
+      text-align: center;
+    }
+    #service-contact h1{
+      margin: 25px 0;
+      font-size: 40px;
+    }
+  }
+  @media all and (max-width: 576px){
+    .side-banner-text{
+      width: 100%;
+      text-align: center;
+    }
+    .side-banner-link{
+      width: 100%;
+      text-align: center;
+      margin: 20px 0 0;
+    }
+  }
+  @media all and (max-width: 375px){
+    #service-contact h1{
+      margin: 25px 0;
+      font-size: 30px;
+    }
+  }
+  /* end mobi */

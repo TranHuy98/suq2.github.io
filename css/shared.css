@@ -556,4 +556,23 @@ h3 {
 
 }
 
+@media all and (max-width: 575px) {
+  .achievement-image-mobi {
+    order: 0;
+  }
+  footer.footer{
+    padding: 0 3% 20px;
+  }
+  .footer-end{
+    padding: 20px 0 0;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 425px){
+  .banner-text h1.main-heading {
+    font-size: 35px;
+  }
+}
+
 /* End Mobi menu */
