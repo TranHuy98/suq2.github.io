@@ -8,5 +8,5 @@ function sendMail(){
         noidung : document.getElementById("noidung_kh").value,
     }
 
-    emailjs.send("service_tjqfgw5","template_l4ibfwe",params).then(alert("send email"));
+    emailjs.send("service_tjqfgw5","template_l4ibfwe",params).then(alert("Success!"));
 }
