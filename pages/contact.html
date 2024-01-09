@@ -12,6 +12,15 @@
       src="https://kit.fontawesome.com/7d0569884e.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("LjEkuo3-_S_kO3pHQ");
+      })();
+    </script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -187,7 +196,8 @@
           <div class="detail">
             <i class="fas fa-globe-asia"></i>
             <p>
-              <strong>Our Address: </strong><br />Nr. 9 To Vinh Dien , Khuong Trung , Thanh Xuan, Ha Noi, Viet Nam
+              <strong>Our Address: </strong><br />Nr. 9 To Vinh Dien , Khuong
+              Trung , Thanh Xuan, Ha Noi, Viet Nam
             </p>
           </div>
 
@@ -207,36 +217,44 @@
           </div>
         </div>
         <div class="customer-info">
-          <div class="customer-info-box">
-            <h2 class="heading">Ready to Get Started?</h2>
-            <p class="note">
-              <em
-                >Your email address will not be published. Required fields are
-                marked *</em
+          <form action="">
+            <div class="customer-info-box">
+              <h2 class="heading">Ready to Get Started?</h2>
+              <p class="note">
+                <em
+                  >Your email address will not be published. Required fields are
+                  marked *</em
+                >
+              </p>
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name*"
+                id="ten_kh"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email*"
+                id="email_kh"
+              />
+              <textarea
+                name="message"
+                id="noidung_kh"
+                rows="10"
+                placeholder="Message..."
+              ></textarea>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                onclick="sendMail()"
               >
-            </p>
-
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name*"
-              id="ten_kh"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email*"
-              id="email_kh"
-            />
-            <textarea
-              name="message"
-              id=""
-              rows="10"
-              placeholder="Message..."
-            ></textarea>
-
-            <button class="btn btn-primary">SEND MESSAGE</button>
-          </div>
+                SEND MESSAGE
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -336,4 +354,5 @@
     src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
   ></script>
   <script src="../js/shared.js"></script>
+  <script src="../js/contact.js"></script>
 </html>
