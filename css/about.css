@@ -11,6 +11,33 @@
   margin: 15px 0 0;
 }
 
+.about-info-left ul{
+  margin: 16px 0 0 0;
+  padding: 0 0 0 0;
+}
+.about-info-left li{
+  list-style: none;
+  padding: 0 0 5px 0px;
+  position: relative;
+}
+.about-info-left li:before{
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  margin: 0 12px 0 0;
+  vertical-align: 4px;
+  background-color: #21C0EC;
+}
+.about-info-left .detail{
+  display: none;
+}
+.about-info-left .detail:nth-of-type(1){
+  display: block;
+}
+
+
 .about-info-right {
   width: 40%;
   gap: 30px;
