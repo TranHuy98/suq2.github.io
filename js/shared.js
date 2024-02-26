@@ -7,13 +7,13 @@ $(window).on("load", function () {
 
 // change language
 
-document.getElementById("lang_de").onclick = () => {
-  document.getElementById("lang_change").innerHTML = 'DE';
-};
+// document.getElementById("lang_de").onclick = () => {
+//   document.getElementById("lang_change").innerHTML = 'DE';
+// };
 
-document.getElementById("lang_en").onclick = () => {
-  document.getElementById("lang_change").innerHTML = 'EN';
-};
+// document.getElementById("lang_en").onclick = () => {
+//   document.getElementById("lang_change").innerHTML = 'EN';
+// };
 
 
 
