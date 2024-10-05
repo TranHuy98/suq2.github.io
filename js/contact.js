@@ -7,7 +7,7 @@ const sendMail = () => {
   let message = document.getElementById("noidung_kh").value;
 
   if (name === '' || email === '' || message === '') {
-    alert('Vui lòng nhập đủ thông tin');
+    alert('Please fill in all the required fields!');
   }
   else {
     const formatEmail = String(email)
@@ -16,7 +16,7 @@ const sendMail = () => {
         /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
       );
     if (!formatEmail) {
-      alert('Email không đúng định dạng!');
+      alert('The email is not in the correct format!');
     } else {
 
       const params = {
@@ -28,8 +28,8 @@ const sendMail = () => {
       console.log(params);
 
       emailjs
-        .send("service_tjqfgw5", "template_l4ibfwe", params)
-        .then(alert("Gửi thông tin thành công!"));
+        .send("service_xm8cv1k", "template_okfciq8", params)
+        .then(alert("Information sent successfully!"));
 
       document.getElementById('ten_kh').value = '';
       document.getElementById('email_kh').value = '';
